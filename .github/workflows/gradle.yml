@@ -9,9 +9,9 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ "main" ]
+    分支: [ "main" ]
   pull_request:
-    branches: [ "main" ]
+    分支: [ "main" ]
 
 jobs:
   build:
@@ -46,6 +46,7 @@ jobs:
     #
     # - name: Build with Gradle 8.9
     #   run: gradle build
+    #
 
   dependency-submission:
 
